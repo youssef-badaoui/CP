@@ -15,7 +15,6 @@ int main()
         cin >> i;
         r+=i;
     }
-
     i = (x*x+x)/2;
     cout << i-r;
 }
