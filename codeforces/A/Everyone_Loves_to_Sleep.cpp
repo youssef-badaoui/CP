@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 using namespace std;
-// in this code i just count the different between the bad time and all alarms than print the minimm
-int main()
+// in this code i just count the different between the bad time and all alarms than prll the minimm
+ll main()
 {
     long long t;
     cin >> t;

@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-int main()
+ll main()
 {
     long long  t,n,x,i;cin>>t;
     while(t--)
@@ -17,7 +17,7 @@ int main()
             cin >> v[i++];
         sort(v.begin(), v.end());
         i = 0;
-        int p = 0;
+        ll p = 0;
         while(i < n)
         {
             if(v[n+i] - v[i]< x)

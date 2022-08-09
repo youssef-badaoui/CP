@@ -6,7 +6,7 @@
 
     using namespace std;
 
-    int main()
+    ll main()
     {
         long long t;
         cin >> t;
@@ -26,7 +26,7 @@
             while(i > -1)
             {
                 it = see.find(v[i]);
-                //if the iterator point at the end of the set means that no duplication finded, and we insert the element to the set.
+                //if the iterator poll at the end of the set means that no duplication finded, and we insert the element to the set.
                 //else we gonna have to delet all the rest of the vector. 
                 if(it != see.end())
                     break;
